@@ -36,3 +36,10 @@ New Repository auf GitHub anlegen.
 Verbinden des lokalen Repositories mit remote: 
 git remote add origin https://github.com/wegnerreinhard/Demo_CITTI_WIN
 git push --set-upstream origin master (oder main, wenn so auf remote)
+git push
+
+Repository von Server:
+Fork von rewegner zu wegnerreinhard 
+In GitHub (unter wegnerreinhard) zum geforkten Repo wechseln. Unter Code - Clone - SSH auswählen. "Copy-Taste" => adresse in Clipboard.
+In Terminal:
+git clone git@github.com:wegnerreinhard/CITTI_Demo.git
