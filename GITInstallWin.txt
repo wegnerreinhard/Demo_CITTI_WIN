@@ -8,7 +8,7 @@ Test "git --version" => Gives the version
 Input username and user Email.
 
 Notepad as Standard Editor:
- git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+git config --global core.editor "'C:/Windows/System32/notepad.exe'"
 Test: "git config --list"
 
 GitHub:
